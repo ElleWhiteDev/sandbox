@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+container{
+    display: grid;
+}
+
+#container span{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #111;
+    z-index: 10;
+}
